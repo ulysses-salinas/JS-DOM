@@ -3,19 +3,41 @@
 <head>
     <title>Exercise 7</title>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div id="accordion">
+        
+        
         <h3 id="section-header">Section 1</h3>
-        <div id="section">
+        
+        <div id="section" >
             <p>
                 Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
                 ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
                 amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
                 odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
             </p>
+            
         </div>
+
+        <h3 id="section-header" data-toggle="collapse" data-target="#section2">Section 1</h3>
+        
+        <div id="section2" class="collapse">
+            <p>
+                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+            </p>
+            
+        </div>
+        
     </div>
+   
+      
+    <script src="script.js"></script>
 </body>
 </html>
